@@ -19,7 +19,7 @@ export const verifyJWT = asyncHandler(async(req, _, next) => {
             .select("-password -refreshToken")
         
         if (!User) {
-            throw new apiError(401,"unauthorized")
+            throw new apiError(401,"User not found")
         }
 
         req.User = User
