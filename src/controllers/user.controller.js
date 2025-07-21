@@ -566,7 +566,7 @@ const deleteUserChannel = asyncHandler(async (req, res) => {
     };
 
     const deleteUser = await user.findByIdAndDelete(userId)
-    if (!deleteUserUser) {
+    if (!deleteUser) {
         throw new apiError(500, "Failed to delete the User channel")
     }
 
