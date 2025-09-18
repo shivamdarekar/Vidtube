@@ -19,6 +19,7 @@ Vidtube is a robust backend project designed for managing video content, built w
 
 - ## Folder Structure
 
+```
 Vidtube
 ├── .gitignore
 ├── .prettierignore
@@ -34,3 +35,4 @@ Vidtube
     ├── middleware/    # Custom Express middleware (auth, error handling, etc.)
     ├── utils/         # Utility/helper functions
     └── index.js       # Entry point for the backend app
+```
