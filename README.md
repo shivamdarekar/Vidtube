@@ -1,3 +1,36 @@
-This project is a complex backend project that is built with nodejs, expressjs, mongodb, mongoose, jwt, bcrypt, and many more. This project is a complete backend project that has all the features that a backend project should have. We are building a complete video hosting website similar to youtube with all the features like login, signup, upload video, like, dislike, comment, reply, subscribe, unsubscribe, and many more.
+Vidtube is a robust backend project designed for managing video content, built with Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, and more. It follows industry-standard practices for authentication, authorization, and secure data handling.
 
-Project uses all standard practices like JWT, bcrypt, access tokens, refresh Tokens and many more.
+## Features
+
+- User authentication with JWT and refresh tokens
+- Password hashing with Bcrypt
+- Full CRUD operations for video resources
+- Modular and scalable folder structure
+- Follows best practices for backend development
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- JWT (JSON Web Tokens)
+- Bcrypt
+- (And more...)
+
+- ## Folder Structure
+
+Vidtube
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── README.md
+├── package.json
+├── package-lock.json
+├── public/         # Static assets (images, videos, favicon, etc.)
+└── src/            # All backend source code
+    ├── controllers/   # Route controllers: logic for handling requests
+    ├── models/        # Mongoose models: defines data schema
+    ├── routes/        # Express route definitions
+    ├── middleware/    # Custom Express middleware (auth, error handling, etc.)
+    ├── utils/         # Utility/helper functions
+    └── index.js       # Entry point for the backend app
